@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | [Your Name]</title>
+  <title>northlightz's awsm page</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -27,11 +27,11 @@
       background-size: cover;
       background-repeat: no-repeat;
       /* Optional: Add a slight blur for a softer effect */
-      filter: blur(2px);
+      filter: blur(6px);
     }
     
     .container {
-      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+      background-color: rgba(108, 12, 235, 0.8); /* Semi-transparent white background */
       padding: 30px;
       border-radius: 5px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -41,17 +41,17 @@
       text-align: center;
       margin-bottom: 20px;
       font-size: 24px;
-      color: #333;
+      color: #0e0d0d;
     }
     
     /* Cursive Font Option */
     @font-face {
-      font-family: 'Great Vibes'; /* Replace with your desired cursive font name */
+      font-family: 'Bahnschrift'; /* Replace with your desired cursive font name */
       src: url("path/to/your/font.ttf") format("truetype"); /* Replace with font file path */
     }
     
     h1, li {
-      font-family: 'Great Vibes', cursive; /* Use the cursive font for headings and list items */
+      font-family: 'Bahnschrift', cursive; /* Use the cursive font for headings and list items */
     }
     
     ul {
@@ -73,32 +73,14 @@
 </head>
 <body>
   <div class="container">
-    <h1>Contact | [Your Name]</h1>
-    <ul id="contact-info">
-      <li>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
-      <li>Telegram: <a href="https://t.me/your_telegram_id">your_telegram_id</a></li>
+    <h1>stuff</h1>
+    <ul>
+      <p>steam : https://steamcommunity.com/id/northlightz</p>
+      <p>discord : northlightz</p>
+      <p>telegram : @northlightz</p>
+      <p>email : lepyrogang@proton.me</p>
     </ul>
   </div>
-
-  <script>
-  const contactInfo = document.getElementById('contact-info');
-
-  contactInfo.addEventListener('mousemove', (event) => {
-    const x = event.clientX;
-    const y = event.clientY;
-
-    const circle = document.createElement('div');
-    circle.classList.add('cursor-dot');
-    circle.style.left = `${x}px`;
-    circle.style.top = `${y}px`;
-
-    contactInfo.appendChild(circle);
-
-    setTimeout(() => {
-      circle.remove();
-    }, 200);
-  });
-  </script>
 
 </body>
 </html>
