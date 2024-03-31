@@ -6,7 +6,7 @@
 - ~~(why is customization paid ????)~~ Steam : https://steamcommunity.com/id/northlightz/
 - *(shit platform)* Discord : northlightz
 - ***(even shittier platform)*** Telegram : @northlightz
-- **(actually a platform)** tumblr : northlightz.tumblr.com
+- **(actually a platform)** tumblr : https://northlightz.tumblr.com/
 <br>
 <br>
 <br>
